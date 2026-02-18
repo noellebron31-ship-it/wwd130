@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Poll form</title>
+    <link rel="stylesheet" href="styles/Poll-form.css">
+</head>
+
+<body>
+    <header>Poll Form</header>
+    <main>
+        <form>
+            <div class="form-item column1">
+                <label for="fullname">Full Name:</label>
+                <input type="text" id="fullname" name="fullname" required>
+            </div>
+            <div class="form-item column2">
+                <label for="useremail">Email:</label>
+                <input type="email" id="useremail" name="useremail" required>
+            </div>
+
+            <label for="quantity"> Select Quantity</label>
+            <select name="quantity" id="quantity">
+                <option value="1">One</option>
+                <option value="2">Two</option>
+                <option value="3">Three</option>
+            </select>
+            <label for="pet">Do you have a household pet?</label>
+            <input type="checkbox" id="pet" name="pet">
+            <label for="feedback">List the places you have lived</label>
+            <textarea id="feedback" name="feedback" rows="4"
+              placeholder="Stillwater Florida, Amsterdam Netherlands, Timbuktu Mali"></textarea>
+            <button type="submit">Submit Poll</button>
+        </form>
+    </main>
+</body>
+
+<footer>
+    <p> &copy; HTML Form - User Poll Activity| Adonis Lebron</p>
+</footer>
+
+</html>
