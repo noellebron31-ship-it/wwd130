@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.3em;
+    color: black;
+    background: #eee;
+}
+
+header {
+    font-size: 2em;
+    margin: 0;
+    text-align: center;
+}
+
+h1 {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 1em;
+    font-size: 1em;
+    color: rgb(56, 56, 130);
+    text-align: center;
+}
+
+form {
+    width: 650px;
+    margin: 0 auto;
+    padding: 1em;
+    border: 1px solid rgba(6, 3, 3, 0.982);
+    border-radius: 1em;
+    background-color: rgb(92, 249, 197);
+    display: grid;
+}
+
+label,
+input,
+button select,
+textarea {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+label {
+    text-align: left;
+    padding-right: 1rem;
+}
+
+input,
+select,
+textarea {
+    padding: 0.5rem;
+    font-size: 1rem;
+}
+
+button {
+    margin: 1rem;
+    background-color: rgb(3, 3, 94);
+    color: #fff;
+    border: none;
+    border-radius: .5rem;
+    padding: .75rem;
+    font-size: 1.2rem;
+}
+
+button:hover {
+    background-color: rgb(10, 149, 159);
+}
+
+footer {
+    margin: 1rem auto 0;
+    width: 650px;
+    text-align: center;
+    font-size: 0.8em;
+    color: #777;
+    border-top: 1px solid #ccc
+}
