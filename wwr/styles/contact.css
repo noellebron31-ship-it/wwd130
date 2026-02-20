@@ -1,0 +1,160 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+header {
+    display: grid;
+    grid-template-columns: 150px 1fr;
+    align-items: center;
+    background-color: #4000ef;
+    padding: 20px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: flex-end;
+    gap: 20px;
+    list-style: none;
+}
+
+nav a {
+    border: 1px solid #000000;
+    background-color: #ffffff;
+    border-radius: 4px;
+    color: #000000;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 18px;
+}
+nav a:hover {
+    text-decoration: underline;
+}
+main {
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.company-info {
+    margin: 20px 0;
+    background-color: #629ff0;
+    border: 1px solid #000000;
+    border-radius: 1px;;
+    text-align: center;
+    padding: 15px;
+}
+
+.company-info p {
+  margin: 3px 0;
+  padding: 0;
+
+}
+
+h1 {
+    color: #333;
+    margin-bottom: 10px;
+}
+h2 {
+    text-align: center;
+    color: #555;
+    margin-bottom: 20px;
+}
+p {
+    margin-bottom: 10px;
+}
+.map {
+    padding: 15px;
+    background-color: rgb(109, 141, 141);
+    text-align: center;
+    margin: 10px 0;
+}
+form {
+    margin: 0;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+form input[type="text"],
+form input[type="email"],
+form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+form input[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+form input[type="submit"]:hover {
+    background-color: #555;
+}
+
+/* EMPLOYEES */
+.employees {
+  text-align: center;
+  padding: 20px;
+  border-top: 1px solid #ccc;
+}
+
+.employee-list {
+  display: flex;
+  justify-content: center;
+  gap: 60px;
+  margin-top: 20px;
+}
+
+.employee-list img {
+  width: 100px;
+  height: 100px;
+  background: #eee;
+}
+
+/* FOOTER */
+footer {
+  background-color: #4000ef;
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.socialmedia {
+  width: 10px;
+  height: 10px;
+  margin-left: 450px;
+}
+
+h2 {
+    text-align: center;
+    color: #555;
+    margin-bottom: 20px;
+}
+button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+button:hover {
+    background-color: #555;
+}
